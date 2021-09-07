@@ -1,0 +1,21 @@
+1) Tworzenie projektu
+    -> https://start.spring.io/
+            (Spring Initializer)
+    -> wybieramy Gradle
+    -> dodajemy dependencies:
+        => Spring Web
+        => Spring Boot DevTools
+        => Lombok
+        => Thymeleaf
+    -> klikamy 'Generate' -> pobieramy jako zip -> odpakowujemy do folderu pracowego
+        -> Idea -> open -> wybieramy plik 'build.gradle' -> open as a project
+    -> wersję Gradle można zmienić w gradle -> wrapper -> gradle-wrapper.properties
+    -> odpowiednikiem 'maven clean install' jest Gradle -> Tasks -> build -> clean + build
+    -> w Gradle każdy build składa się z projektów
+        (projekt to np. aplikacja webowa lub biblioteka JAR)
+    -> w Gradle projekt składa się z 'zadań' (?) (org. 'tasks')
+    -> build phases:
+        => inicjalizacja — tu Gradle decyduje, które projekty wejdą w skład buildu
+        => konfiguracja — projekty są tu konfigurowane
+        => wykonanie — Gradle decyduje, które 'zadania' mają zostać wykonane i je wykonuje
+
