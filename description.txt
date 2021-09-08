@@ -18,4 +18,10 @@
         => inicjalizacja — tu Gradle decyduje, które projekty wejdą w skład buildu
         => konfiguracja — projekty są tu konfigurowane
         => wykonanie — Gradle decyduje, które 'zadania' mają zostać wykonane i je wykonuje
-
+2) File -> Settings -> Build, Execution, Deployment -> Compiler ->
+    Annotation Processors -> Enable annotation processing
+3) Dodajemy (kopiujemy z innego projektu) plik konfiguracyjny Logbacka
+4) Dodajemy kontroler
+5) Dodajemy widok (w 'resources' -> 'templates'), pamiętając o dodaniu obsługi Thymeleafa
+    <html lang="en" xmlns:th="http://www.thymeleaf.org">
+6) Apkę uruchamiamy w automatycznie utworzonej klasie 'GradleDemoApplication'
