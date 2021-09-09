@@ -18,10 +18,18 @@
         => inicjalizacja — tu Gradle decyduje, które projekty wejdą w skład buildu
         => konfiguracja — projekty są tu konfigurowane
         => wykonanie — Gradle decyduje, które 'zadania' mają zostać wykonane i je wykonuje
-2) File -> Settings -> Build, Execution, Deployment -> Compiler ->
+    -> File -> Settings -> Build, Execution, Deployment -> Compiler ->
     Annotation Processors -> Enable annotation processing
-3) Dodajemy (kopiujemy z innego projektu) plik konfiguracyjny Logbacka
-4) Dodajemy kontroler
-5) Dodajemy widok (w 'resources' -> 'templates'), pamiętając o dodaniu obsługi Thymeleafa
+    -> dodajemy (kopiujemy z innego projektu) plik konfiguracyjny Logbacka
+    -> dodajemy kontroler
+    -> dodajemy widok (w 'resources' -> 'templates'), pamiętając o dodaniu obsługi Thymeleafa
     <html lang="en" xmlns:th="http://www.thymeleaf.org">
-6) Apkę uruchamiamy w automatycznie utworzonej klasie 'GradleDemoApplication'
+    -> apkę uruchamiamy w automatycznie utworzonej klasie 'GradleDemoApplication'
+2) CHALLENGE 1
+    1) create a Spring Boot Gradle project using Spring Initializer and using the following metadata:
+        - artifact: bb-bms
+        - name: bb-bms
+        - description: Bills Burgers Business Management System
+        - dependencies: lombok, web, thymeleaf, dev tools
+    2) import the project into IntelliJ
+    Info: BMS is an acronym for Business Management System
